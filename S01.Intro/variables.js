@@ -26,3 +26,4 @@ return "Bonjour je m'appelle " + firstName + " et j'ai " + age + " ans";
 }
 
 console.log(infoUser(firstName,age));
+
