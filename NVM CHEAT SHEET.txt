@@ -1,0 +1,7 @@
+NVM CHEAT SHEET
+
+nvm install <version>
+nvm ls (liste des versions)
+nvm use <version>
+nvm current
+nvm uninstall

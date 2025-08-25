@@ -11,7 +11,7 @@ let age = 19; // Définir une variable pouvant être réaffectée
 console.log(firstName);
 
 age++;
-age = 'bleu';
+//age = 'bleu';
 age++; 
 
 
@@ -22,8 +22,13 @@ const test = 'b' + 'a' + + 'a' + 'a';
 console.log(test);
 
 function infoUser(firstName, age){
-return "Bonjour je m'appelle " + firstName + " et j'ai " + age + " ans";
+//return "Bonjour je m'appelle " + firstName + " et j'ai " + age + " ans";
+    return `Bonjour je m'apelle ${firstName} et j'ai ${age} ans.`
 }
+const result = infoUser('David', 19)
+console.log(infoUser(firstName, age));
 
-console.log(infoUser(firstName,age));
+const equalTestUn = 1 == '1'; // boxing 'True'
+const equalTestDeux = 1 === '1'; // pas de boxing 'False'
+console.log(equalTestUn);
 
